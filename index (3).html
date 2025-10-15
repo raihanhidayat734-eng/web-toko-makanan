@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Rasa Nusantara | Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍃 Rasa Nusantara</h1>
+    <nav>
+      <a href="index.html" class="active">Dashboard</a>
+      <a href="keranjang.html">Keranjang</a>
+      <a href="pembayaran.html">Pembayaran</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Selamat Datang di Rasa Nusantara</h2>
+    <p>Rasakan kelezatan cita rasa Indonesia dalam setiap gigitan 💚</p>
+  </section>
+
+  <main class="produk-container">
+    <div class="produk">
+      <img src="https://i.imgur.com/N9rN0bN.jpg" alt="Nasi Goreng">
+      <h2>Nasi Goreng</h2>
+      <p>Rp 20.000</p>
+      <button onclick="tambahKeKeranjang('Nasi Goreng', 20000)">Tambah ke Keranjang</button>
+    </div>
+    <div class="produk">
+      <img src="https://i.imgur.com/9uhP9Zs.jpg" alt="Mie Ayam">
+      <h2>Mie Ayam</h2>
+      <p>Rp 18.000</p>
+      <button onclick="tambahKeKeranjang('Mie Ayam', 18000)">Tambah ke Keranjang</button>
+    </div>
+    <div class="produk">
+      <img src="https://i.imgur.com/f5N2k1E.jpg" alt="Ayam Geprek">
+      <h2>Ayam Geprek</h2>
+      <p>Rp 22.000</p>
+      <button onclick="tambahKeKeranjang('Ayam Geprek', 22000)">Tambah ke Keranjang</button>
+    </div>
+    <div class="produk">
+      <img src="https://i.imgur.com/pXK8JrX.jpg" alt="Sate Ayam">
+      <h2>Sate Ayam</h2>
+      <p>Rp 25.000</p>
+      <button onclick="tambahKeKeranjang('Sate Ayam', 25000)">Tambah ke Keranjang</button>
+    </div>
+    <div class="produk">
+      <img src="https://i.imgur.com/jAtDkBl.jpg" alt="Bakso">
+      <h2>Bakso</h2>
+      <p>Rp 15.000</p>
+      <button onclick="tambahKeKeranjang('Bakso', 15000)">Tambah ke Keranjang</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Rasa Nusantara | Cita Rasa Asli Indonesia</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
